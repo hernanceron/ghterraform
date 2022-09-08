@@ -11,6 +11,12 @@ terraform {
         version = "~>3.0"
       }
     }
+    backend "azurerm" {
+      resource_group_name = "RG-TERRAFORM-HCA"
+      storage_account_name = "sahcastorage"
+      container_name = "tfstate"
+      key = "codelab.microsoft.tfstate"
+    }
 }
 
 provider "azurerm" {

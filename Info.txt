@@ -1,0 +1,5 @@
+
+[32;1mDisplayName  Id                                   AppId[0m
+[32;1m-----------  --                                   -----[0m
+AppTerraform 8fff9a71-2d71-4b7f-8a66-81f272e51a2d 35f00e0c-d305-483c-8250-f9d787e6cc00
+
