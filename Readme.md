@@ -1,10 +1,12 @@
 Ejecutar
 1.- Crear Cuenta y SP
 Connect-AzAccount -TenantId '14354b3d-5686-421a-a402-305cca0950bf'
+
 Subscription Id (Get-AzSubscription -TenantId $((Get-AzContext).Tenant.Id)).Id
+
 New-AzADServicePrincipal -DisplayName 'TerraformAp' -Role Contributor -Scope /subscriptions/1b011210-a618-4971-91ca-77590b596bc8
 
-ObjectId : f9bf9665-1071-4f5e-acce-b8ea59e025db
+ObjectId : a936504b-c2d6-449f-a83e-0919ce362776
 
 2.- Resource group
 

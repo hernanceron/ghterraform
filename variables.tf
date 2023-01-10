@@ -28,7 +28,7 @@ variable locationk8s {
 }
 
 variable aks_service_principal_app_id {
-    default= "35f00e0c-d305-483c-8250-f9d787e6cc00"
+    default= "59e923ac-f661-4daf-81c7-22b5055f1b8d"
 }
 
 variable aks_service_principal_client_secret{
@@ -37,4 +37,12 @@ variable aks_service_principal_client_secret{
 
 variable aks_service_principal_object_id {
     default= "f9bf9665-1071-4f5e-acce-b8ea59e025db"
+}
+
+variable "subnet_name" {
+  default = "subnet-k8s"
+}
+
+variable "virtual_network_name" {
+  default = "vnet-k8s"
 }
